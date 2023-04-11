@@ -1,3 +1,7 @@
+.sec-about__container {
+  margin-top: 15rem;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
@@ -40,8 +44,9 @@
 }
 
 .about__card:hover {
-  background: transparent;
-  border-color: var(--primary-variant);
+  /* background: transparent; */
+  background: var(--dark);
+  border-color: var(--light);
   cursor: default;
 }
 
@@ -65,8 +70,11 @@
   color: var(--light);
 }
 
-/* ========= MEDIA QUERIES FOR LARGE DEVICES ========= */
-@media screen and (max-width: 1024px) {
+/* ========= MEDIA QUERIES FOR EXTRA LARGE DEVICES ========= */
+@media screen and (max-width: 1200px) {
+  /* .sec-about__container {
+    margin-top: 20rem;
+  } */
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
@@ -82,12 +90,26 @@
   }
 }
 
+/* ========= MEDIA QUERIES FOR LARGE DEVICES ========= */
+@media screen and (max-width: 992px) {
+  .sec-about__container {
+    margin-top: 25rem;
+  }
+}
+
 /* ========= MEDIA QUERIES FOR MEDIUM DEVICES ========= */
 @media screen and (max-width: 768px) {
+  .sec-about__container {
+    margin-top: 25rem;
+  }
 }
 
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
 @media screen and (max-width: 576px) {
+  .sec-about__container {
+    margin-top: 13rem;
+  }
+
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;

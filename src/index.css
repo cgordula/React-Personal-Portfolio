@@ -12,10 +12,15 @@
 
 :root {
   --bg: #e6651a;
-  --bg-variant: #ca6022;
+  --bg-variant: #f19865;
   --primary: #c4c4c4;
   --primary-variant: rgba(255, 142, 77, 0.4);
   --white: #fff;
+  --dark: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
   --light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
@@ -63,10 +68,10 @@ h1 {
   font-size: 2.5rem;
 }
 
-section {
-  margin-top: 15rem;
+/* section {
+  margin-top: 10rem;
   height: 100vh;
-}
+} */
 
 section > h2,
 section > h5 {
@@ -127,8 +132,10 @@ img {
   }
 }
 
-/* ========= MEDIA QUERIES FOR MEDIUM DEVICES ========= */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  /* section {
+    margin-top: 20rem;
+  } */
 }
 
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
