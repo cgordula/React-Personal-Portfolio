@@ -13,7 +13,7 @@
 :root {
   --bg: #e6651a;
   --bg-variant: #ca6022;
-  --primary: #2a2a2a;
+  --primary: #c4c4c4;
   --primary-variant: rgba(255, 142, 77, 0.4);
   --white: #fff;
   --light: rgba(255, 255, 255, 0.6);
@@ -128,7 +128,7 @@ img {
 }
 
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .container {
     width: var(--width-sm);
   }
