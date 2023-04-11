@@ -39,7 +39,7 @@ header {
 /* =========== ME =========== */
 .me {
   background: linear-gradient(var(--primary), transparent);
-  width: 20rem;
+  width: 22rem;
   height: 25rem;
   position: absolute;
   left: calc(50% - 11rem);
@@ -61,12 +61,19 @@ header {
   font-size: 0.9rem;
 }
 
-/* ========= MEDIA QUERIES FOR MEDIUM DEVICES ========= */
+/* ========= MEDIA QUERIES FOR LARGE DEVICES ========= */
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
 }
+
+/* ========= MEDIA QUERIES FOR MEDIUM DEVICES ========= */
+/* @media screen and (max-width: 768px) {
+  header {
+    height: 50vh;
+  }
+} */
 
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
 @media screen and (max-width: 576px) {
