@@ -40,10 +40,15 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
-            nobis architecto, omnis iste adipisci accusantium distinctio
-            suscipit a eos ipsam laudantium maxime natus voluptatibus voluptates
-            doloremque culpa, dicta animi vero?
+            I studied BS in Computer Engineering. I have more than eight years
+            of working experience in different fields. I worked as a system
+            administrator, data controller cum receptionist, front desk, and
+            hotel manager. I have skills in photo editing and some graphic
+            designs and also I took a Bootcamp course in Amazon Web Services and
+            I am now a certified AWS Cloud Practitioner. With that skills and
+            experiences, I am seeking other opportunities that will challenge me
+            every day. So, I decided to shift to a career in web development and
+            now I begin my journey in coding with the help of ZUITT Bootcamp.
           </p>
 
           <a href="#contact" className="btn btn-primary">
