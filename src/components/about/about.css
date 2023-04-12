@@ -1,5 +1,6 @@
 .sec-about__container {
   margin-top: 15rem;
+  margin-bottom: 4rem;
 }
 
 .about__container {
@@ -107,7 +108,7 @@
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
 @media screen and (max-width: 576px) {
   .sec-about__container {
-    margin-top: 20rem;
+    margin-top: 22rem;
   }
 
   .about__me {
