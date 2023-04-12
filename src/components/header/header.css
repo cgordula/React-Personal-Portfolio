@@ -45,7 +45,7 @@ header {
   left: calc(50% - 11rem);
   /* left: 50%;
   transform: translateX(-50%); */
-  margin-top: 4rem;
+  margin-top: 3rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -78,7 +78,7 @@ header {
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
 @media screen and (max-width: 576px) {
   header {
-    height: 100vh;
+    height: 80vh;
   }
 
   .header__socials,

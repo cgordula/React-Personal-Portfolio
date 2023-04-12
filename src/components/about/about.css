@@ -71,10 +71,10 @@
 }
 
 /* ========= MEDIA QUERIES FOR EXTRA LARGE DEVICES ========= */
-@media screen and (max-width: 1200px) {
-  /* .sec-about__container {
-    margin-top: 20rem;
-  } */
+@media screen and (max-width: 1024px) {
+  .sec-about__container {
+    margin-top: 25rem;
+  }
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
@@ -107,7 +107,7 @@
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
 @media screen and (max-width: 576px) {
   .sec-about__container {
-    margin-top: 13rem;
+    margin-top: 20rem;
   }
 
   .about__me {
