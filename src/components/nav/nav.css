@@ -24,14 +24,14 @@ nav a {
 }
 
 nav a:hover {
-  /* background: rgba(0, 0, 0, 0.3); */
-  background: var(--bg);
+  background: rgba(0, 0, 0, 0.3);
+  /* background: var(--bg); */
 }
 
 nav a.active {
-  background: rgba(0, 0, 0, 0.3);
-  color: var(--white);
-  /* 
-  background: var(--bg);
+  /* background: rgba(0, 0, 0, 0.3);
   color: var(--white); */
+
+  background: var(--bg);
+  color: var(--white);
 }
