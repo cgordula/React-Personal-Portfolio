@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>6 years working</small>
+              <small>8+ years working</small>
             </article>
 
             <article className="about__card">
@@ -40,15 +40,23 @@ const About = () => {
           </div>
 
           <p>
-            I studied BS in Computer Engineering. I have more than eight years
-            of working experience in different fields. I worked as a system
-            administrator, data controller cum receptionist, front desk, and
-            hotel manager. I have skills in photo editing and some graphic
-            designs and also I took a Bootcamp course in Amazon Web Services and
-            I am now a certified AWS Cloud Practitioner. With that skills and
-            experiences, I am seeking other opportunities that will challenge me
-            every day. So, I decided to shift to a career in web development and
-            now I begin my journey in coding with the help of ZUITT Bootcamp.
+            As a seasoned professional with over eight years of experience in
+            various industries, I have gained a wealth of knowledge and skills
+            that make me a valuable asset to any team. My background in Computer
+            Engineering has provided me with a strong foundation in technology,
+            which I have applied to roles ranging from system administration to
+            hotel management. Additionally, my proficiency in photo editing and
+            graphic design has allowed me to add a creative touch to my work.
+          </p>
+          <p>
+            However, I am always seeking new challenges and opportunities for
+            growth. That's why I recently made the decision to pivot my career
+            to web development, and I enrolled in the ZUITT Bootcamp to hone my
+            coding skills. As a certified AWS Cloud Practitioner, I am confident
+            in my ability to adapt to new technologies and contribute to
+            projects of any size. I am excited to see where this new chapter
+            takes me and look forward to applying my diverse skill set to create
+            innovative solutions for clients.
           </p>
 
           <a href="#contact" className="btn btn-primary">
