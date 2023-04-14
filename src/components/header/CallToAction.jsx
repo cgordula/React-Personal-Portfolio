@@ -8,7 +8,7 @@ const CallToAction = () => {
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">
-        Reach Me Out!
+        Reach Me Out
       </a>
     </div>
   );

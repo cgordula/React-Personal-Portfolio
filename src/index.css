@@ -130,12 +130,10 @@ img {
   .container {
     width: var(--width-md);
   }
-}
 
-@media screen and (max-width: 992px) {
-  /* section {
-    margin-top: 20rem;
-  } */
+  section {
+    margin-top: 6rem;
+  }
 }
 
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */

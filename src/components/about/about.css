@@ -10,7 +10,7 @@
 }
 
 .about__me {
-  width: 100%;
+  width: 75%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, var(--bg), transparent);
@@ -93,6 +93,10 @@
 
 /* ========= MEDIA QUERIES FOR SMALL DEVICES ========= */
 @media screen and (max-width: 576px) {
+  .sec-about__container {
+    margin-top: 2rem;
+  }
+
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
