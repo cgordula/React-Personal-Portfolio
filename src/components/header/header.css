@@ -4,10 +4,10 @@ header {
   overflow: hidden;
 }
 
-.header__container {
+.container.header__container {
   text-align: center;
   height: 100%;
-  /* position: relative; */
+  position: relative;
 }
 
 /* =========== Call To Action ============ */
@@ -25,7 +25,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 2.5rem;
+  /* left: 2.5rem; */
   bottom: 3rem;
 }
 

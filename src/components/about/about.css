@@ -1,5 +1,5 @@
 .sec-about__container {
-  margin-top: 15rem;
+  margin-top: 6rem;
   margin-bottom: 4rem;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
+  margin: 2rem 1rem 2.6rem;
   color: var(--light);
 }
 

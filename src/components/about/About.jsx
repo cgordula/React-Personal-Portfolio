@@ -52,7 +52,7 @@ const About = () => {
           </p>
 
           <a href="#contact" className="btn btn-primary">
-            Reach Me Out!
+            Let's Talk
           </a>
         </div>
       </div>
